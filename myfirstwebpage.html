@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IBTHub.tech</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f6f9;
+      color:#222;
+    }
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      color:#cbd5e1;
+    }
+
+    nav{
+      background:#1e293b;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    .hero{
+      text-align:center;
+      padding:60px 20px;
+      background:white;
+    }
+
+    .hero h2{
+      font-size:38px;
+      margin-bottom:20px;
+      color:#0f172a;
+    }
+
+    .hero p{
+      max-width:700px;
+      margin:auto;
+      color:#555;
+      line-height:1.6;
+    }
+
+    section{
+      padding:50px 20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:40px;
+      font-size:32px;
+      color:#0f172a;
+    }
+
+    .tools-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,2fr));
+      gap:20px;
+    }
+
+    .tool-card{
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+    }
+
+    .tool-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .tool-card h3{
+      margin-bottom:10px;
+      color:#0f172a;
+    }
+
+    .tool-card p{
+      color:#555;
+      margin-bottom:15px;
+      line-height:1.5;
+    }
+
+    .tool-card a{
+      display:inline-block;
+      padding:10px 18px;
+      background:#0ea5e9;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+    }
+
+    .tool-card a:hover{
+      background:#0284c7;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+
+    @media(max-width:600px){
+      header h1{
+        font-size:30px;
+      }
+
+      .hero h2{
+        font-size:28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>IBTHub.tech</h1>
+    <p>Your One-Stop Hub For Digital Tools & Resources</p>
+  </header>
+
+  <nav>
+    <a href="#ai-tools">AI Tools</a>
+    <a href="#pdf-tools">PDF Tools</a>
+    <a href="#cv-makers">CV Makers</a>
+    <a href="#programming-tools">Programming Tools</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Discover The Best Online Tools In One Place</h2>
+    <p>
+      IBTHub.tech helps students, developers, job seekers, and creators
+      quickly access the best AI tools, PDF tools, CV makers,
+      and programming resources online.
+    </p>
+  </section>
+
+  <!-- AI TOOLS -->
+
+  <section id="ai-tools">
+    <h2 class="section-title">AI Tools</h2>
+
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <h3>ChatGPT</h3>
+        <p>AI assistant for writing, coding, and learning.</p>
+        <a href="https://chat.openai.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Claude</h3>
+        <p>Helpful AI assistant for deep conversations.</p>
+        <a href="https://claude.ai" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Gemini</h3>
+        <p>Google AI assistant and productivity tool.</p>
+        <a href="https://gemini.google.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Perplexity AI</h3>
+        <p>AI-powered search engine for fast research.</p>
+        <a href="https://www.perplexity.ai" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Canva AI</h3>
+        <p>Create designs using AI tools.</p>
+        <a href="https://www.canva.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Notion AI</h3>
+        <p>AI writing and note assistant.</p>
+        <a href="https://www.notion.so" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Grammarly</h3>
+        <p>Improve grammar and writing professionally.</p>
+        <a href="https://www.grammarly.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Copy.ai</h3>
+        <p>Generate marketing and writing content quickly.</p>
+        <a href="https://www.copy.ai" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Jasper AI</h3>
+        <p>AI content creation platform.</p>
+        <a href="https://www.jasper.ai" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Leonardo AI</h3>
+        <p>Create AI-generated images and artworks.</p>
+        <a href="https://leonardo.ai" target="_blank">Visit</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PDF TOOLS -->
+
+  <section id="pdf-tools">
+    <h2 class="section-title">PDF Tools</h2>
+
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <h3>iLovePDF</h3>
+        <p>Edit, merge, compress and convert PDFs.</p>
+        <a href="https://www.ilovepdf.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Smallpdf</h3>
+        <p>Easy online PDF editing tools.</p>
+        <a href="https://smallpdf.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>PDF24</h3>
+        <p>Free PDF creator and editor.</p>
+        <a href="https://tools.pdf24.org" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Adobe PDF</h3>
+        <p>Official Adobe PDF tools.</p>
+        <a href="https://www.adobe.com/acrobat" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Soda PDF</h3>
+        <p>Edit and manage PDFs online.</p>
+        <a href="https://www.sodapdf.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Sejda PDF</h3>
+        <p>Online PDF editor and converter.</p>
+        <a href="https://www.sejda.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>PDF Candy</h3>
+        <p>Powerful free PDF toolkit.</p>
+        <a href="https://pdfcandy.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>DocFly</h3>
+        <p>Edit and convert PDF documents.</p>
+        <a href="https://www.docfly.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>HiPDF</h3>
+        <p>All-in-one PDF online solution.</p>
+        <a href="https://www.hipdf.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>LightPDF</h3>
+        <p>Simple PDF editing platform.</p>
+        <a href="https://lightpdf.com" target="_blank">Visit</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CV MAKERS -->
+
+  <section id="cv-makers">
+    <h2 class="section-title">CV Makers</h2>
+
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <h3>Canva CV</h3>
+        <p>Create beautiful CVs easily.</p>
+        <a href="https://www.canva.com/resumes/" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Zety</h3>
+        <p>Professional resume builder.</p>
+        <a href="https://zety.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Novoresume</h3>
+        <p>Modern CV templates and builders.</p>
+        <a href="https://novoresume.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Resume.io</h3>
+        <p>Fast and easy CV creator.</p>
+        <a href="https://resume.io" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Kickresume</h3>
+        <p>AI-powered resume builder.</p>
+        <a href="https://www.kickresume.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>VisualCV</h3>
+        <p>Create professional online CVs.</p>
+        <a href="https://www.visualcv.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Enhancv</h3>
+        <p>Stylish resume builder for job seekers.</p>
+        <a href="https://enhancv.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>CV Maker</h3>
+        <p>Create resumes in minutes.</p>
+        <a href="https://cvmaker.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>MyPerfectResume</h3>
+        <p>Professional CV templates.</p>
+        <a href="https://www.myperfectresume.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>LiveCareer</h3>
+        <p>Resume and job application tools.</p>
+        <a href="https://www.livecareer.com" target="_blank">Visit</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROGRAMMING TOOLS -->
+
+  <section id="programming-tools">
+    <h2 class="section-title">Programming Tools</h2>
+
+    <div class="tools-grid">
+
+      <div class="tool-card">
+        <h3>GitHub</h3>
+        <p>Host and manage code repositories.</p>
+        <a href="https://github.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Replit</h3>
+        <p>Code online directly from browser.</p>
+        <a href="https://replit.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>W3Schools</h3>
+        <p>Learn web development basics.</p>
+        <a href="https://www.w3schools.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>MDN Docs</h3>
+        <p>Official web documentation.</p>
+        <a href="https://developer.mozilla.org" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Stack Overflow</h3>
+        <p>Programming questions and answers.</p>
+        <a href="https://stackoverflow.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>CodePen</h3>
+        <p>Frontend code playground.</p>
+        <a href="https://codepen.io" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>GeeksforGeeks</h3>
+        <p>Programming tutorials and problems.</p>
+        <a href="https://www.geeksforgeeks.org" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>LeetCode</h3>
+        <p>Practice coding interview questions.</p>
+        <a href="https://leetcode.com" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>Go Documentation</h3>
+        <p>Official Go programming docs.</p>
+        <a href="https://go.dev/doc/" target="_blank">Visit</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>VS Code</h3>
+        <p>Popular code editor by Microsoft.</p>
+        <a href="https://code.visualstudio.com" target="_blank">Visit</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 IBTHub.tech | Built By Ity Benson Thomas</p>
+  </footer>
+
+</body>
+</html>
